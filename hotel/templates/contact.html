@@ -1,0 +1,64 @@
+{% extends 'master.html' %}
+{% load static %}
+{% block main %}
+    <section class="ftco-section contact-section bg-light">
+      <div class="container">
+        <div class="row d-flex mb-5 contact-info">
+          <div class="col-md-12 mb-4">
+            <h2 class="h3">Contact Information</h2>
+          </div>
+          <div class="w-100"></div>
+          <div class="col-md-3 d-flex">
+          	<div class="info rounded bg-white p-4">
+	            <p><span>Address:</span> Meru University of Science and Technology</p>
+	          </div>
+          </div>
+          <div class="col-md-3 d-flex">
+          	<div class="info rounded bg-white p-4">
+	            <p><span>Phone:</span> <a href="#">+254712345678</a></p>
+	          </div>
+          </div>
+          <div class="col-md-3 d-flex">
+          	<div class="info rounded bg-white p-4">
+	            <p><span>Email:</span> <a href="#">ngigipaul912@gmail</a></p>
+	          </div>
+          </div>
+          <div class="col-md-3 d-flex">
+          	<div class="info rounded bg-white p-4">
+	            <p><span>Website</span> <a href="#">governor.com</a></p>
+	          </div>
+          </div>
+        </div>
+        <div class="row block-9">
+          <div class="col-md-6 order-md-last d-flex">
+            <form action="#" class="bg-white p-5 contact-form">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+              <div class="form-group">
+                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+              </div>
+            </form>
+          
+          </div>
+
+          <div class="col-md-6 d-flex">
+          	<div id="map" class="bg-white">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63837.013009707436!2d37.64125379457074!3d0.09077372653202641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smeru%20university%20website!5e0!3m2!1sen!2ske!4v1700390838549!5m2!1sen!2ske"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+{% endblock %}
