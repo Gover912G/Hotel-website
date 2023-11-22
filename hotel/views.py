@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from hotel.models import HeroSection, About,Testimony,MasterRoom
+from hotel.models import HeroSection, About,Testimony,MasterRoom,Menu
 
 
 # Create your views here.
@@ -13,7 +13,16 @@ def index(request):
     about = About.objects.all()[0]
     testimony = Testimony.objects.all()
     Mroom = MasterRoom.objects.all()
-    return render(request,"index.html", {'nav': 'index', "abouts": about, "test":testimony, "room":Mroom})
+    rest = Menu.objects.all()
+    context = {
+        'nav': 'index',
+        "abouts": about,
+        "test":testimony,
+        "room":Mroom,
+        "restaurant":rest,
+    }
+
+    return render(request,"index.html", context)
 
 def about(request):
     about = About.objects.all()[0]
@@ -31,7 +40,8 @@ def rooms(request):
     return render(request, 'rooms.html', {'nav': 'rooms', "room":Mroom})
 
 def restaurant(request):
-        return render(request, 'restaurant.html', {'nav': 'restaurant'})
+    rest = Menu.objects.all()
+    return render(request, 'restaurant.html', {'nav': 'restaurant', "restaurant": rest})
 
 
 def blog_single(request):
