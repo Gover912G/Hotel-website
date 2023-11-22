@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from hotel.models import HeroSection, About,Testimony,MasterRoom,Menu
+from hotel.models import HeroSection, About, Testimony, MasterRoom, Menu, Blogs, InstagramImage
 
 
 # Create your views here.
@@ -14,12 +14,16 @@ def index(request):
     testimony = Testimony.objects.all()
     Mroom = MasterRoom.objects.all()
     rest = Menu.objects.all()
+    blogs = Blogs.objects.all()
+    insta = InstagramImage.objects.all()
     context = {
         'nav': 'index',
         "abouts": about,
         "test":testimony,
         "room":Mroom,
         "restaurant":rest,
+        "blog": blogs,
+        "instagram":insta,
     }
 
     return render(request,"index.html", context)

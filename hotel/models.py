@@ -43,3 +43,10 @@ class MasterRoom(models.Model):
 
     def __int__(self):
         return self.name
+class Blogs(models.Model):
+    created_at = models.DateTimeField(auto_now_add=True)
+    text = models.TextField(blank=False, default='description')
+    image = models.ImageField(upload_to='blogs')
+
+class InstagramImage(models.Model):
+    image = models.ImageField(upload_to='instagram images')
