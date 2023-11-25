@@ -7,12 +7,13 @@
     		<div class="row no-gutters">
     			<div class="col-lg-12">
     				<form action="#" class="booking-form aside-stretch">
+                        {% csrf_token %}
 	        		<div class="row">
 	        			<div class="col-md d-flex py-md-4">
 	        				<div class="form-group align-self-stretch d-flex align-items-end">
 	        					<div class="wrap align-self-stretch py-3 px-4">
-				    					<label for="#">Check-in Date</label>
-				    					<input type="text" class="form-control checkin_date" placeholder="Check-in date">
+				    					<label for="check in">Check-in Date</label>
+				    					<input type="text" class="form-control checkin_date" placeholder="Check-in date" name="check in">
 			    					</div>
 			    				</div>
 	        			</div>
