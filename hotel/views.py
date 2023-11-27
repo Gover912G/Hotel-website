@@ -1,6 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 from hotel.models import HeroSection, About, Testimony, MasterRoom, Menu, Blogs, InstagramImage
+from manager.models import Book
 
 
 # Create your views here.
@@ -53,3 +54,18 @@ def blog_single(request):
 
 def rooms_single(request):
         return render(request, 'restaurant.html', {'nav': 'single rooms'})
+
+
+def add_booking(request):
+    if request.method =='POST':
+        check_in = request.POST.get('check_in')
+        check_out = request.POST.get('check_out')
+        room_type = request.POST.get('room')
+        guests = request.POST.get('guest')
+
+        books = Book(check_in=check_in, check_out=check_out, room_type=room_type,guests=guests)
+        books.save()
+        return redirect('/')
+
+
+    return redirect('/')

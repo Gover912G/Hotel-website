@@ -6,14 +6,14 @@
     	<div class="container">
     		<div class="row no-gutters">
     			<div class="col-lg-12">
-    				<form action="#" class="booking-form aside-stretch">
+    				<form action="/add_booking" method="post" class="booking-form aside-stretch">
                         {% csrf_token %}
 	        		<div class="row">
 	        			<div class="col-md d-flex py-md-4">
 	        				<div class="form-group align-self-stretch d-flex align-items-end">
 	        					<div class="wrap align-self-stretch py-3 px-4">
 				    					<label for="check in">Check-in Date</label>
-				    					<input type="text" class="form-control checkin_date" placeholder="Check-in date" name="check in">
+				    					<input type="text" class="form-control checkin_date" placeholder="Check-in date" name="check_in">
 			    					</div>
 			    				</div>
 	        			</div>
@@ -21,7 +21,7 @@
 	        				<div class="form-group align-self-stretch d-flex align-items-end">
 	        					<div class="wrap align-self-stretch py-3 px-4">
 				    					<label for="#">Check-out Date</label>
-				    					<input type="text" class="form-control checkout_date" placeholder="Check-out date">
+				    					<input type="date" class="form-control checkout_date" placeholder="Check-out date" name="check_out">
 			    					</div>
 			    				</div>
 	        			</div>
@@ -32,7 +32,7 @@
 			      					<div class="form-field">
 			        					<div class="select-wrap">
 			                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-			                    <select name="" id="" class="form-control">
+			                    <select name="room" id="" class="form-control">
 			                    	<option value="">Suite</option>
 			                      <option value="">Family Room</option>
 			                      <option value="">Deluxe Room</option>
@@ -52,7 +52,7 @@
 			      					<div class="form-field">
 			        					<div class="select-wrap">
 			                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-			                    <select name="" id="" class="form-control">
+			                    <select name="guest" id="" class="form-control">
 			                    	<option value="">1 Adult</option>
 			                      <option value="">2 Adult</option>
 			                      <option value="">3 Adult</option>
@@ -66,9 +66,10 @@
 		              </div>
 	        			</div>
 	        			<div class="col-md d-flex">
-	        				<div class="form-group d-flex align-self-stretch">
-			              <a href="#" class="btn btn-primary py-5 py-md-3 px-4 align-self-stretch d-block"><span>Check Availability <small>Best Price Guaranteed!</small></span></a>
-			            </div>
+                            <input type="submit" class="form-control btn btn-success" value="book">
+{#	        				<div class="form-group d-flex align-self-stretch">#}
+{#			                    <a href="#" class="btn btn-primary py-5 py-md-3 px-4 align-self-stretch d-block"><span>Check Availability <small>Best Price Guaranteed!</small></span></a>#}
+{#			                </div>#}
 	        			</div>
 	        		</div>
 	        	</form>
