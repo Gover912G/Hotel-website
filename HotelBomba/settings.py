@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'hotel',
+    'hotel.booking_function',
     'register',
     'manager',
     'django.contrib.admin',

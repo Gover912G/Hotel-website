@@ -21,7 +21,7 @@
 	        				<div class="form-group align-self-stretch d-flex align-items-end">
 	        					<div class="wrap align-self-stretch py-3 px-4">
 				    					<label for="#">Check-out Date</label>
-				    					<input type="date" class="form-control checkout_date" placeholder="Check-out date" name="check_out">
+				    					<input type="text" class="form-control checkout_date" placeholder="Check-out date" name="check_out">
 			    					</div>
 			    				</div>
 	        			</div>
@@ -271,7 +271,7 @@
     					<div class="half left-arrow d-flex align-items-center">
     						<div class="text p-4 text-center">
     							<p class="star mb-0"><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span></p>
-    							<p class="mb-0"><span class="price mr-1">${{ x.price }}</span> <span class="per">per night</span></p>
+    							<p class="mb-0"><span class="price mr-1">Ksh{{ x.price }}</span> <span class="per">per night</span></p>
 	    						<h3 class="mb-3"><a href="{% url 'hotel:rooms' %}">{{ x.name }}</a></h3>
 	    						<p class="pt-1"><a href="{% url 'hotel:rooms single' %}" class="btn-custom px-3 py-2 rounded">View Details <span class="icon-long-arrow-right"></span></a></p>
     						</div>
@@ -374,7 +374,7 @@
         			<div class="desc p-4">
 	        			<div class="d-md-flex text align-items-start">
 	        				<h3><span>{{ x.name }}</span></h3>
-	        				<span class="price">${{ x.price }}</span>
+	        				<span class="price">Ksh{{ x.price }}</span>
 	        			</div>
 	        			<div class="d-block">
 	        				<p>{{ x.text }}</p>

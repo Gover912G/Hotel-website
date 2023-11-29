@@ -32,7 +32,7 @@ def index(request):
 def about(request):
     about = About.objects.all()[0]
     testimony = Testimony.objects.all()
-    return render(request, 'about.html', {"nav": "about", "abouts": about, "test": testimony})
+    return render(request, 'about.html', {"nav": "about", "abouts": about, "testi": testimony})
 
 def blog(request):
     return render(request, 'blog.html', {'nav': 'blog'})

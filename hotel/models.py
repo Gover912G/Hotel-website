@@ -1,3 +1,4 @@
+from django.conf import settings
 from django.db import models
 
 
@@ -50,3 +51,37 @@ class Blogs(models.Model):
 
 class InstagramImage(models.Model):
     image = models.ImageField(upload_to='instagram images')
+
+
+
+class Room(models.Model):
+    ROOM_CATEGORIES = (
+        ('KIN', 'King Room'),
+        ('SUI', 'Suite Room'),
+        ('DEL', 'Deluxe Room'),
+        ('SUP', 'Superior Room'),
+    )
+    number = models.IntegerField()
+    category = models.CharField(max_length=3, choices=ROOM_CATEGORIES)
+    beds = models.IntegerField()
+    capacity = models.IntegerField
+
+    def __str__(self):
+        return f'{self.number},{self.category} with {self.beds} beds for {self.capacity} adults'
+
+class Booking(models.Model):
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    room =models.ForeignKey(Room, on_delete=models.CASCADE)
+    check_in = models.DateTimeField()
+    check_out = models.DateTimeField()
+
+    def __str__(self):
+        return f'{self.user} has booked {self.room} from {self.check_in} to {self.check_out}'
+
+# models.py
+class Book(models.Model):
+    check_in = models.DateTimeField(auto_now_add=True)
+    check_out = models.DateTimeField(auto_now_add=True)
+    room_type = models.CharField(max_length=50)
+    guests = models.CharField(max_length=50)
+    # date_booked = models.DateTimeField(auto_now_add=True)
