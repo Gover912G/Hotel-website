@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f88fb6a1-d792-41a7-8fd5-1d5024857810" name="Changes" comment="dashboard">
+      <change afterPath="$PROJECT_DIR$/hotel/booking_function/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel/booking_function/availability.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel/migrations/0011_book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel/migrations/0012_auto_20231128_2222.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel/migrations/0013_book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel/migrations/0014_auto_20231128_2331.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel/migrations/0015_auto_20231128_2334.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/migrations/0002_auto_20231128_1923.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/migrations/0003_remove_book_date_booked.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/migrations/0004_delete_book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/migrations/0005_book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/background/about-1_AQzjv92.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/background/about-2_bc6pgUA.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/blogs/image_1_4uojYBs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/blogs/image_2_FsLZ1NM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/blogs/image_3_lAQn5KK.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/blogs/image_4_dUrdxDy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/blogs/image_5_U2tp5P8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/blogs/image_6_XmEyJzG.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/instagram images/insta-1_WWxc1On.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/instagram images/insta-2_RgQhsSz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/instagram images/insta-3_ql6P0Y3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/instagram images/insta-4_ZM246Zp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/instagram images/insta-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/master rooms/room-1_eQWa6mf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/master rooms/room-2_7AXhEu0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/master rooms/room-3_ClCfhcp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/master rooms/room-4_tRstfqW.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/master rooms/room-5_S2Zi1xi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/master rooms/room-6_0TvHyFo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/restaurant/menu-1_Tsad7nI.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/restaurant/menu-2_WTCYnNi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/restaurant/menu-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/restaurant/menu-4_o8REECG.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/restaurant/menu-5_fabpLhO.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/restaurant/menu-6_12uy2M3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/restaurant/menu-7_cuFBUGs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/restaurant/menu-8_B4U2AmZ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/restaurant/menu-9_1pHSv2W.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/testimonials/person_1_MKJlrlh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/testimonials/person_2_FViEmSA.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/testimonials/person_3_lHKlK5N.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/testimonials/person_4_2jIeV38.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelBomba/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HotelBomba/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/hotel/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hotel/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel/templates/rooms.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel/templates/rooms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hotel/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2YWpdam1VOBaxbIiKLvjR81QCj7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/governor/emobilis final/Hotel-website&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/register" />
+      <recent name="$PROJECT_DIR$/manager/static" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f88fb6a1-d792-41a7-8fd5-1d5024857810" name="Changes" comment="" />
+      <created>1700651279552</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700651279552</updated>
+      <workItem from="1700651280582" duration="7858000" />
+      <workItem from="1700942184161" duration="11979000" />
+      <workItem from="1701030490660" duration="9205000" />
+      <workItem from="1701039947681" duration="1476000" />
+      <workItem from="1701042223698" duration="3745000" />
+      <workItem from="1701063780050" duration="12584000" />
+      <workItem from="1701087725252" duration="2602000" />
+      <workItem from="1701193004830" duration="9679000" />
+      <workItem from="1701231217040" duration="3565000" />
+    </task>
+    <task id="LOCAL-00001" summary="dynamic restaurant menu">
+      <option name="closed" value="true" />
+      <created>1700654262425</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700654262425</updated>
+    </task>
+    <task id="LOCAL-00002" summary="dynamic home complete">
+      <option name="closed" value="true" />
+      <created>1700657668713</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700657668713</updated>
+    </task>
+    <task id="LOCAL-00003" summary="login,logout and register code">
+      <option name="closed" value="true" />
+      <created>1700955001028</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700955001028</updated>
+    </task>
+    <task id="LOCAL-00004" summary="dashboard">
+      <option name="closed" value="true" />
+      <created>1701085013856</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701085013856</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="dynamic restaurant menu" />
+    <MESSAGE value="dynamic home complete" />
+    <MESSAGE value="login,logout and register code" />
+    <MESSAGE value="dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="dashboard" />
+  </component>
+</project>
