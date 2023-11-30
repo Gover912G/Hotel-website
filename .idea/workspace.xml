@@ -5,57 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f88fb6a1-d792-41a7-8fd5-1d5024857810" name="Changes" comment="dashboard">
-      <change afterPath="$PROJECT_DIR$/hotel/booking_function/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel/booking_function/availability.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel/migrations/0011_book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel/migrations/0012_auto_20231128_2222.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel/migrations/0013_book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel/migrations/0014_auto_20231128_2331.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel/migrations/0015_auto_20231128_2334.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager/migrations/0002_auto_20231128_1923.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager/migrations/0003_remove_book_date_booked.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager/migrations/0004_delete_book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager/migrations/0005_book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/background/about-1_AQzjv92.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/background/about-2_bc6pgUA.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blogs/image_1_4uojYBs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blogs/image_2_FsLZ1NM.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blogs/image_3_lAQn5KK.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blogs/image_4_dUrdxDy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blogs/image_5_U2tp5P8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blogs/image_6_XmEyJzG.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/instagram images/insta-1_WWxc1On.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/instagram images/insta-2_RgQhsSz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/instagram images/insta-3_ql6P0Y3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/instagram images/insta-4_ZM246Zp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/instagram images/insta-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/master rooms/room-1_eQWa6mf.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/master rooms/room-2_7AXhEu0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/master rooms/room-3_ClCfhcp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/master rooms/room-4_tRstfqW.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/master rooms/room-5_S2Zi1xi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/master rooms/room-6_0TvHyFo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/restaurant/menu-1_Tsad7nI.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/restaurant/menu-2_WTCYnNi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/restaurant/menu-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/restaurant/menu-4_o8REECG.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/restaurant/menu-5_fabpLhO.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/restaurant/menu-6_12uy2M3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/restaurant/menu-7_cuFBUGs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/restaurant/menu-8_B4U2AmZ.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/restaurant/menu-9_1pHSv2W.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/testimonials/person_1_MKJlrlh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/testimonials/person_2_FViEmSA.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/testimonials/person_3_lHKlK5N.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/testimonials/person_4_2jIeV38.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelBomba/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HotelBomba/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel/static/css/styles_details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel/templates/availability.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/hotel/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel/booking_function/availability.py" beforeDir="false" afterPath="$PROJECT_DIR$/hotel/booking_function/availability.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/hotel/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hotel/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hotel/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/hotel/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hotel/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel/templates/rooms.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel/templates/rooms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel/templates/master.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel/templates/master.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hotel/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hotel/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hotel/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/manager/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/templates/add-customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/manager/templates/add-customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/templates/indexx.html" beforeDir="false" afterPath="$PROJECT_DIR$/manager/templates/indexx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/templates/manage_master.html" beforeDir="false" afterPath="$PROJECT_DIR$/manager/templates/manage_master.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/manager/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/manager/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +100,8 @@
       <workItem from="1701087725252" duration="2602000" />
       <workItem from="1701193004830" duration="9679000" />
       <workItem from="1701231217040" duration="3565000" />
+      <workItem from="1701293398238" duration="447000" />
+      <workItem from="1701312006506" duration="8547000" />
     </task>
     <task id="LOCAL-00001" summary="dynamic restaurant menu">
       <option name="closed" value="true" />

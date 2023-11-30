@@ -117,7 +117,7 @@
 						<li class="submenu"> <a href="#"><i class="fas fa-suitcase"></i> <span> Booking </span> <span class="menu-arrow"></span></a>
 							<ul class="submenu_class" style="display: none;">
 								<li><a href="{% url 'manager:booking' %}"> All Booking </a></li>
-								<li><a href="edit-booking.html"> Edit Booking </a></li>
+								<li><a href="{% url 'manager:edit_booking' %}"> Edit Booking </a></li>
 								<li><a href="{% url 'manager:add_booking' %}"> Add Booking </a></li>
 							</ul>
 						</li>

@@ -12,16 +12,18 @@
 	        			<div class="col-md d-flex py-md-4">
 	        				<div class="form-group align-self-stretch d-flex align-items-end">
 	        					<div class="wrap align-self-stretch py-3 px-4">
-				    					<label for="check in">Check-in Date</label>
-				    					<input type="text" class="form-control checkin_date" placeholder="Check-in date" name="check_in">
+				    					<label for="id_check_in">Check-in Date</label>
+{#				    					<input type="datetime-local" class="form-control checkin_date" id="id_check_in" placeholder="Check-in date" name="check_in">#}
+				    					<input type="datetime-local" class="form-control checkin_date_time" id="id_check_in" placeholder="Check-in date" name="check_in">
 			    					</div>
 			    				</div>
 	        			</div>
 	        			<div class="col-md d-flex py-md-4">
 	        				<div class="form-group align-self-stretch d-flex align-items-end">
 	        					<div class="wrap align-self-stretch py-3 px-4">
-				    					<label for="#">Check-out Date</label>
-				    					<input type="text" class="form-control checkout_date" placeholder="Check-out date" name="check_out">
+				    					<label for="id_check_out">Check-out Date</label>
+{#				    					<input type="datetime-local" class="form-control checkout_date" id="id_check_out" placeholder="Check-out date" name="check_out">#}
+				    					<input type="datetime-local" class="form-control checkout_date_time" id="id_check_out" placeholder="Check-out date" name="check_out">
 			    					</div>
 			    				</div>
 	        			</div>
@@ -66,10 +68,10 @@
 		              </div>
 	        			</div>
 	        			<div class="col-md d-flex">
-                            <input type="submit" class="form-control btn btn-success" value="book">
-{#	        				<div class="form-group d-flex align-self-stretch">#}
-{#			                    <a href="#" class="btn btn-primary py-5 py-md-3 px-4 align-self-stretch d-block"><span>Check Availability <small>Best Price Guaranteed!</small></span></a>#}
-{#			                </div>#}
+{#                            <input type="submit" class="form-control btn btn-success" value="book">#}
+	        				<div class="form-group d-flex align-self-stretch">
+			                    <a href="#" class="btn btn-primary py-5 py-md-3 px-4 align-self-stretch d-block"><span>Check Availability <small>Best Price Guaranteed!</small></span></a>
+			                </div>
 	        			</div>
 	        		</div>
 	        	</form>
@@ -263,39 +265,41 @@
             <h2 class="mb-4">Hotel Master's Rooms</h2>
           </div>
         </div>  
-    		<div class="row no-gutters">
-    			{% for x in room %}
-    				<div class="col-lg-6">
+{#    		<div class="row no-gutters">#}
+{#    			{% for x in room %}#}
+{#    				<div class="col-lg-6">#}
+{#    				<div class="room-wrap d-md-flex ftco-animate">#}
+{#    					<a href="#" class="img" style="background-image: url('media/{{ x.image }}');"></a>#}
+{#    					<div class="half left-arrow d-flex align-items-center">#}
+{#    						<div class="text p-4 text-center">#}
+{#    							<p class="star mb-0"><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span></p>#}
+{#    							<p class="mb-0"><span class="price mr-1">Ksh{{ x.price }}</span> <span class="per">per night</span></p>#}
+{#	    						<h3 class="mb-3"><a href="{% url 'hotel:rooms' %}">{{ x.name }}</a></h3>#}
+{#	    						<p class="pt-1"><a href="{% url 'hotel:rooms single' %}" class="btn-custom px-3 py-2 rounded">View Details <span class="icon-long-arrow-right"></span></a></p>#}
+{#	    						<p class="pt-1"><a href="{% url 'hotel:add_booking' %}" class="btn-custom px-3 py-2 rounded">View Details <span class="icon-long-arrow-right"></span></a></p>#}
+{#    						</div>#}
+{#    					</div>#}
+{#    				</div>#}
+{#    			</div>#}
+{#    			{% endfor %}#}
+{##}
+
+            {% for room_display, room_url in room_list %}
+    			<div class="col-lg-6">
     				<div class="room-wrap d-md-flex ftco-animate">
-    					<a href="#" class="img" style="background-image: url('media/{{ x.image }}');"></a>
+    					<a href="{{ room_url }}" class="img" style="background-image: url({% static 'images/room-1.jpg' %});"></a>
     					<div class="half left-arrow d-flex align-items-center">
     						<div class="text p-4 text-center">
     							<p class="star mb-0"><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span></p>
-    							<p class="mb-0"><span class="price mr-1">Ksh{{ x.price }}</span> <span class="per">per night</span></p>
-	    						<h3 class="mb-3"><a href="{% url 'hotel:rooms' %}">{{ x.name }}</a></h3>
+    							<p class="mb-0"><span class="price mr-1">$120.00</span> <span class="per">per night</span></p>
+	    						<h3 class="mb-3"><a href="{% url 'hotel:rooms' %}">{{ room_display }}</a></h3>
 	    						<p class="pt-1"><a href="{% url 'hotel:rooms single' %}" class="btn-custom px-3 py-2 rounded">View Details <span class="icon-long-arrow-right"></span></a></p>
     						</div>
     					</div>
     				</div>
     			</div>
-    			{% endfor %}
+            {% endfor %}
 
-
-
-{#    			<div class="col-lg-6">#}
-{#    				<div class="room-wrap d-md-flex ftco-animate">#}
-{#    					<a href="#" class="img" style="background-image: url({% static 'images/room-1.jpg' %});"></a>#}
-{#    					<div class="half left-arrow d-flex align-items-center">#}
-{#    						<div class="text p-4 text-center">#}
-{#    							<p class="star mb-0"><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span></p>#}
-{#    							<p class="mb-0"><span class="price mr-1">$120.00</span> <span class="per">per night</span></p>#}
-{#	    						<h3 class="mb-3"><a href="{% url 'hotel:rooms' %}">Suite Room</a></h3>#}
-{#	    						<p class="pt-1"><a href="{% url 'hotel:rooms single' %}" class="btn-custom px-3 py-2 rounded">View Details <span class="icon-long-arrow-right"></span></a></p>#}
-{#    						</div>#}
-{#    					</div>#}
-{#    				</div>#}
-{#    			</div>#}
-{##}
 {#    			<div class="col-lg-6">#}
 {#    				<div class="room-wrap d-md-flex ftco-animate">#}
 {#    					<a href="#" class="img order-md-last" style="background-image: url({% static 'images/room-2.jpg' %});"></a>#}

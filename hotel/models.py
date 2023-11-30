@@ -66,6 +66,9 @@ class Room(models.Model):
     beds = models.IntegerField()
     capacity = models.IntegerField
 
+
+
+
     def __str__(self):
         return f'{self.number},{self.category} with {self.beds} beds for {self.capacity} adults'
 
