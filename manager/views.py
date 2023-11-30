@@ -14,6 +14,11 @@ def index(request):
     return render(request, 'indexx.html', context)
 
 
+def allbooking(request):
+    bookings= Booking.objects.all()
+    return render(request, 'all-booking.html', {"books":bookings})
+
+
 def booking(request):
     bookings= Booking.objects.all()
     return render(request, 'all-booking.html', {"books":bookings})
