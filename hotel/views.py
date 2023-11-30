@@ -57,7 +57,8 @@ def about(request):
 
 
 def blog(request):
-    return render(request, 'blog.html', {'nav': 'blog'})
+    blogs = Blogs.objects.all()
+    return render(request, 'blog.html', {'nav': 'blog', 'blog':blogs})
 
 
 def contact(request):
